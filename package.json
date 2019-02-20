@@ -1,0 +1,22 @@
+{
+  "name": "pkg-error-msg",
+  "version": "1.0.0",
+  "description": "这是加上i18处理错误信息的",
+  "main": "index.js",
+  "scripts": {
+    "merge": "node utils/merge_msg.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "i18n"
+  ],
+  "author": "wangchong",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^1.2.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1"
+
+  }
+}
